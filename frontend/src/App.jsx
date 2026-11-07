@@ -359,7 +359,7 @@ export default function App() {
     }
   }
 
-  function useSuggestion(text) {
+  function applySuggestion(text) {
     setMessage(text);
     document.querySelector(".composer textarea")?.focus();
   }
@@ -498,7 +498,7 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() =>
-                    useSuggestion("Explain artificial intelligence simply.")
+                    applySuggestion("Explain artificial intelligence simply.")
                   }
                 >
                   <span>✦</span>
@@ -509,7 +509,7 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() =>
-                    useSuggestion(
+                    applySuggestion(
                       "Write a Python program to check whether a number is prime."
                     )
                   }
@@ -522,7 +522,7 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() =>
-                    useSuggestion("Help me brainstorm a useful AI project.")
+                    applySuggestion("Help me brainstorm a useful AI project.")
                   }
                 >
                   <span>↗</span>
