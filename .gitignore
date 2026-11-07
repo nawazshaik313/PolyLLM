@@ -1,0 +1,10 @@
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Local H2 database (contains chat history)
+backend/data/
+
+# Backup files
+*.backup
